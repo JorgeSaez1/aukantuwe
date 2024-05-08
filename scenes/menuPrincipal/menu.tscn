@@ -1,0 +1,99 @@
+[gd_scene load_steps=7 format=3 uid="uid://xi7bl376yeag"]
+
+[ext_resource type="Script" path="res://script/menuPrincipal/menu.gd" id="1_a0pgq"]
+[ext_resource type="Texture2D" uid="uid://bg4aywj3an3c5" path="res://assets/menu/fondomenu.png" id="2_loh8s"]
+[ext_resource type="Texture2D" uid="uid://tnd6q5kc8bns" path="res://assets/menu/inicio.png" id="3_ffr7s"]
+[ext_resource type="Texture2D" uid="uid://de7u0qkt6bjq" path="res://assets/menu/configuracion.png" id="4_q23u3"]
+[ext_resource type="Texture2D" uid="uid://csodnfxp6g843" path="res://assets/menu/creditos.png" id="5_tjcta"]
+[ext_resource type="Texture2D" uid="uid://cmy63a01vkecp" path="res://assets/menu/salida.png" id="6_omabk"]
+
+[node name="menu" type="Node2D"]
+script = ExtResource("1_a0pgq")
+
+[node name="fondo" type="TextureRect" parent="."]
+offset_left = -52.0
+offset_top = -21.0
+offset_right = 632.0
+offset_bottom = 875.0
+texture = ExtResource("2_loh8s")
+expand_mode = 5
+
+[node name="aukantuwe" type="Label" parent="fondo"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -192.0
+offset_top = -362.0
+offset_right = 187.0
+offset_bottom = -279.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 60
+text = "AUKANTUWE"
+
+[node name="inicio" type="TextureRect" parent="."]
+offset_left = 18.0
+offset_top = 157.0
+offset_right = 208.0
+offset_bottom = 350.0
+texture = ExtResource("3_ffr7s")
+expand_mode = 1
+
+[node name="Button" type="Button" parent="inicio"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.075
+anchor_bottom = 0.136
+offset_left = 52.0
+offset_top = 64.0
+offset_right = 360.75
+offset_bottom = 101.752
+
+[node name="configuracion" type="TextureRect" parent="."]
+offset_left = 16.0
+offset_top = 250.0
+offset_right = 209.0
+offset_bottom = 449.0
+texture = ExtResource("4_q23u3")
+expand_mode = 1
+
+[node name="Button" type="Button" parent="configuracion"]
+layout_mode = 0
+offset_left = 52.0
+offset_top = 67.0
+offset_right = 376.0
+offset_bottom = 134.0
+
+[node name="creditos" type="TextureRect" parent="."]
+offset_left = 11.0
+offset_top = 358.0
+offset_right = 213.0
+offset_bottom = 548.0
+texture = ExtResource("5_tjcta")
+expand_mode = 1
+
+[node name="Button" type="Button" parent="creditos"]
+layout_mode = 0
+offset_left = 56.0
+offset_top = 64.0
+offset_right = 379.0
+offset_bottom = 128.0
+
+[node name="salida" type="TextureRect" parent="."]
+offset_left = 13.0
+offset_top = 455.0
+offset_right = 219.0
+offset_bottom = 648.0
+texture = ExtResource("6_omabk")
+expand_mode = 1
+
+[node name="Button" type="Button" parent="salida"]
+layout_mode = 0
+offset_left = 57.0
+offset_top = 64.0
+offset_right = 380.0
+offset_bottom = 128.0
+button_mask = 0

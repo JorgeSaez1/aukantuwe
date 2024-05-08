@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bg4aywj3an3c5"
-path="res://.godot/imported/fondomenu.png-bbdf6c0e1e308dd1f9ad224675d89de3.ctex"
+uid="uid://b77fkeewcldmp"
+path="res://.godot/imported/AUKANTU.png-2de478582f6eb19ba10530ad5fabe556.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/menu/fondomenu.png"
-dest_files=["res://.godot/imported/fondomenu.png-bbdf6c0e1e308dd1f9ad224675d89de3.ctex"]
+source_file="res://assets/menuPrincipal/AUKANTU.png"
+dest_files=["res://.godot/imported/AUKANTU.png-2de478582f6eb19ba10530ad5fabe556.ctex"]
 
 [params]
 

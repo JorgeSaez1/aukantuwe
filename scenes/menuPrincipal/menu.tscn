@@ -1,14 +1,14 @@
 [gd_scene load_steps=7 format=3 uid="uid://xi7bl376yeag"]
 
-[ext_resource type="Script" path="res://script/menuPrincipal/menu.gd" id="1_a0pgq"]
-[ext_resource type="Texture2D" uid="uid://bg4aywj3an3c5" path="res://assets/menu/fondomenu.png" id="2_loh8s"]
-[ext_resource type="Texture2D" uid="uid://tnd6q5kc8bns" path="res://assets/menu/inicio.png" id="3_ffr7s"]
-[ext_resource type="Texture2D" uid="uid://de7u0qkt6bjq" path="res://assets/menu/configuracion.png" id="4_q23u3"]
-[ext_resource type="Texture2D" uid="uid://csodnfxp6g843" path="res://assets/menu/creditos.png" id="5_tjcta"]
-[ext_resource type="Texture2D" uid="uid://cmy63a01vkecp" path="res://assets/menu/salida.png" id="6_omabk"]
+[ext_resource type="Script" path="res://script/menuPrincipal/menuPrincipal.gd" id="1_pskgr"]
+[ext_resource type="Texture2D" uid="uid://bg4aywj3an3c5" path="res://assets/menuPrincipal/fondomenu.png" id="2_loh8s"]
+[ext_resource type="Texture2D" uid="uid://tnd6q5kc8bns" path="res://assets/menuPrincipal/inicio.png" id="3_ffr7s"]
+[ext_resource type="Texture2D" uid="uid://de7u0qkt6bjq" path="res://assets/menuPrincipal/configuracion.png" id="4_q23u3"]
+[ext_resource type="Texture2D" uid="uid://csodnfxp6g843" path="res://assets/menuPrincipal/creditos.png" id="5_tjcta"]
+[ext_resource type="Texture2D" uid="uid://cmy63a01vkecp" path="res://assets/menuPrincipal/salida.png" id="6_omabk"]
 
-[node name="menu" type="Node2D"]
-script = ExtResource("1_a0pgq")
+[node name="menu principal" type="Node2D"]
+script = ExtResource("1_pskgr")
 
 [node name="fondo" type="TextureRect" parent="."]
 offset_left = -52.0

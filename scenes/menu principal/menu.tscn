@@ -1,21 +1,21 @@
 [gd_scene load_steps=7 format=3 uid="uid://xi7bl376yeag"]
 
-[ext_resource type="Script" path="res://script/menuPrincipal/menuPrincipal.gd" id="1_pskgr"]
-[ext_resource type="Texture2D" uid="uid://bg4aywj3an3c5" path="res://assets/menuPrincipal/fondomenu.png" id="2_loh8s"]
-[ext_resource type="Texture2D" uid="uid://tnd6q5kc8bns" path="res://assets/menuPrincipal/inicio.png" id="3_ffr7s"]
-[ext_resource type="Texture2D" uid="uid://de7u0qkt6bjq" path="res://assets/menuPrincipal/configuracion.png" id="4_q23u3"]
-[ext_resource type="Texture2D" uid="uid://csodnfxp6g843" path="res://assets/menuPrincipal/creditos.png" id="5_tjcta"]
-[ext_resource type="Texture2D" uid="uid://cmy63a01vkecp" path="res://assets/menuPrincipal/salida.png" id="6_omabk"]
+[ext_resource type="Script" path="res://script/menu/menuPrincipal.gd" id="1_dfl37"]
+[ext_resource type="Texture2D" uid="uid://bg4aywj3an3c5" path="res://assets/menu principal/fondomenu.png" id="2_s1tos"]
+[ext_resource type="Texture2D" uid="uid://tnd6q5kc8bns" path="res://assets/menu principal/inicio.png" id="3_e8dwt"]
+[ext_resource type="Texture2D" uid="uid://de7u0qkt6bjq" path="res://assets/menu principal/configuracion.png" id="4_q0yhb"]
+[ext_resource type="Texture2D" uid="uid://csodnfxp6g843" path="res://assets/menu principal/creditos.png" id="5_keknf"]
+[ext_resource type="Texture2D" uid="uid://cmy63a01vkecp" path="res://assets/menu principal/salida.png" id="6_uqwts"]
 
 [node name="menu principal" type="Node2D"]
-script = ExtResource("1_pskgr")
+script = ExtResource("1_dfl37")
 
 [node name="fondo" type="TextureRect" parent="."]
 offset_left = -52.0
 offset_top = -21.0
 offset_right = 632.0
 offset_bottom = 875.0
-texture = ExtResource("2_loh8s")
+texture = ExtResource("2_s1tos")
 expand_mode = 5
 
 [node name="aukantuwe" type="Label" parent="fondo"]
@@ -39,7 +39,7 @@ offset_left = 18.0
 offset_top = 157.0
 offset_right = 208.0
 offset_bottom = 350.0
-texture = ExtResource("3_ffr7s")
+texture = ExtResource("3_e8dwt")
 expand_mode = 1
 
 [node name="inicio" type="Button" parent="inicio"]
@@ -49,7 +49,7 @@ anchor_right = 0.075
 anchor_bottom = 0.136
 offset_left = 52.0
 offset_top = 64.0
-offset_right = 360.75
+offset_right = 416.75
 offset_bottom = 101.752
 flat = true
 
@@ -69,14 +69,14 @@ offset_left = 16.0
 offset_top = 250.0
 offset_right = 209.0
 offset_bottom = 449.0
-texture = ExtResource("4_q23u3")
+texture = ExtResource("4_q0yhb")
 expand_mode = 1
 
 [node name="configuracion" type="Button" parent="configuracion"]
 layout_mode = 0
 offset_left = 52.0
 offset_top = 67.0
-offset_right = 376.0
+offset_right = 450.0
 offset_bottom = 134.0
 flat = true
 
@@ -94,7 +94,7 @@ offset_left = 11.0
 offset_top = 358.0
 offset_right = 213.0
 offset_bottom = 548.0
-texture = ExtResource("5_tjcta")
+texture = ExtResource("5_keknf")
 expand_mode = 1
 
 [node name="creditos" type="Button" parent="creditos"]
@@ -119,14 +119,14 @@ offset_left = 13.0
 offset_top = 455.0
 offset_right = 219.0
 offset_bottom = 648.0
-texture = ExtResource("6_omabk")
+texture = ExtResource("6_uqwts")
 expand_mode = 1
 
 [node name="salida" type="Button" parent="salida"]
 layout_mode = 0
 offset_left = 57.0
 offset_top = 64.0
-offset_right = 380.0
+offset_right = 455.0
 offset_bottom = 128.0
 flat = true
 

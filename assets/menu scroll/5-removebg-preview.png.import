@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b77fkeewcldmp"
-path="res://.godot/imported/AUKANTU.png-2de478582f6eb19ba10530ad5fabe556.ctex"
+uid="uid://x7oc1xut38fy"
+path="res://.godot/imported/5-removebg-preview.png-75db53b189b66e9b99e1b5642f17a082.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/menuPrincipal/AUKANTU.png"
-dest_files=["res://.godot/imported/AUKANTU.png-2de478582f6eb19ba10530ad5fabe556.ctex"]
+source_file="res://assets/menu scroll/5-removebg-preview.png"
+dest_files=["res://.godot/imported/5-removebg-preview.png-75db53b189b66e9b99e1b5642f17a082.ctex"]
 
 [params]
 

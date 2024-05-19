@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cmy63a01vkecp"
-path="res://.godot/imported/salida.png-3c06c05b7cfa524e2e861f5ffc5c7371.ctex"
+uid="uid://bg4aywj3an3c5"
+path="res://.godot/imported/fondomenu.png-2a8d437d9fa322eb829d22937b5b6e23.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/menuPrincipal/salida.png"
-dest_files=["res://.godot/imported/salida.png-3c06c05b7cfa524e2e861f5ffc5c7371.ctex"]
+source_file="res://assets/menu principal/fondomenu.png"
+dest_files=["res://.godot/imported/fondomenu.png-2a8d437d9fa322eb829d22937b5b6e23.ctex"]
 
 [params]
 

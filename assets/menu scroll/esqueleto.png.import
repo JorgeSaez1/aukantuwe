@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://de7u0qkt6bjq"
-path="res://.godot/imported/configuracion.png-13cc7ff150f899062e6276cf602334d7.ctex"
+uid="uid://mu5sghj468ir"
+path="res://.godot/imported/esqueleto.png-6ff02fade424b9346a8c8fdd7556849f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/menuPrincipal/configuracion.png"
-dest_files=["res://.godot/imported/configuracion.png-13cc7ff150f899062e6276cf602334d7.ctex"]
+source_file="res://assets/menu scroll/esqueleto.png"
+dest_files=["res://.godot/imported/esqueleto.png-6ff02fade424b9346a8c8fdd7556849f.ctex"]
 
 [params]
 

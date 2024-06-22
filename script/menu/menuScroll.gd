@@ -1,13 +1,13 @@
 extends ScrollContainer
 
-@export var card_scale: float = 1
-@export var card_current_scale: float = 1.3
-@export var scroll_duration: float = 1.3	
+var card_scale: float = 1
+var card_current_scale: float = 1.3
+var scroll_duration: float = 1.3
 
 var card_current_index: int = 0
 var card_x_positions: Array = []
 
-@onready var scroll_tween: Tween = $TweenNode.create_tween()
+var scroll_tween: Tween = Tween.new()
 var margin_r: int = 0
 var card_space: int = 0
 var card_nodes: Array = []
@@ -57,10 +57,15 @@ func scroll() -> void:
 		
 	scroll_tween.start()
 
-func _on_ScrollContainer_gui_input(event: InputEvent) -> void:
+
+func _on_gui_input(event: InputEvent)-> void:
 	if event is InputEventMouseButton:
 		if event.pressed:
 			scroll_tween.stop_all()
 		else:
 			scroll()
+	pass # Replace with function body.
 
+
+func _on_button_pressed():
+	get_tree().change_scene_to_file("res://scenes/menu principal/menu.tscn")

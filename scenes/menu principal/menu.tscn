@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://script/menu/menuPrincipal.gd" id="1_dfl37"]
 [ext_resource type="Texture2D" uid="uid://bg4aywj3an3c5" path="res://assets/menu principal/fondomenu.png" id="2_s1tos"]
-[ext_resource type="Texture2D" uid="uid://tnd6q5kc8bns" path="res://assets/menu principal/inicio.png" id="3_e8dwt"]
+[ext_resource type="Texture2D" uid="uid://day5cyqqosq1g" path="res://assets/menu scroll/btnplayblanco.png" id="3_ybddr"]
 [ext_resource type="Texture2D" uid="uid://de7u0qkt6bjq" path="res://assets/menu principal/configuracion.png" id="4_q0yhb"]
 [ext_resource type="Texture2D" uid="uid://csodnfxp6g843" path="res://assets/menu principal/creditos.png" id="5_keknf"]
 [ext_resource type="Texture2D" uid="uid://cmy63a01vkecp" path="res://assets/menu principal/salida.png" id="6_uqwts"]
@@ -35,11 +35,11 @@ theme_override_font_sizes/font_size = 60
 text = "AUKANTUWE"
 
 [node name="inicio" type="TextureRect" parent="."]
-offset_left = 18.0
-offset_top = 157.0
-offset_right = 208.0
-offset_bottom = 350.0
-texture = ExtResource("3_e8dwt")
+offset_left = 75.0
+offset_top = 213.0
+offset_right = 161.0
+offset_bottom = 291.0
+texture = ExtResource("3_ybddr")
 expand_mode = 1
 
 [node name="inicio" type="Button" parent="inicio"]
@@ -47,18 +47,17 @@ layout_mode = 1
 anchors_preset = -1
 anchor_right = 0.075
 anchor_bottom = 0.136
-offset_left = 52.0
-offset_top = 64.0
-offset_right = 416.75
-offset_bottom = 101.752
-flat = true
+offset_left = 2.0
+offset_top = 4.0
+offset_right = 428.95
+offset_bottom = 73.44
 
 [node name="Label" type="Label" parent="inicio"]
 layout_mode = 0
-offset_left = 196.0
-offset_top = 67.0
-offset_right = 364.0
-offset_bottom = 120.0
+offset_left = 153.0
+offset_top = 17.0
+offset_right = 321.0
+offset_bottom = 70.0
 theme_override_font_sizes/font_size = 38
 text = "tuwültun"
 horizontal_alignment = 1

@@ -1,8 +1,8 @@
 [gd_scene load_steps=7 format=3 uid="uid://xi7bl376yeag"]
 
 [ext_resource type="Script" path="res://script/menu/menuPrincipal.gd" id="1_dfl37"]
-[ext_resource type="Texture2D" uid="uid://bg4aywj3an3c5" path="res://assets/menu principal/fondomenu.png" id="2_s1tos"]
-[ext_resource type="Texture2D" path="res://assets/menu scroll/btnplayblanco.png" id="3_ybddr"]
+[ext_resource type="Texture2D" uid="uid://wiuix8xspn3k" path="res://assets/menu principal/Background-landscape.png" id="2_5dslc"]
+[ext_resource type="Texture2D" uid="uid://d4nkph47i2x61" path="res://assets/menu principal/btnplayblanco.png" id="3_s0thv"]
 [ext_resource type="Texture2D" uid="uid://de7u0qkt6bjq" path="res://assets/menu principal/configuracion.png" id="4_q0yhb"]
 [ext_resource type="Texture2D" uid="uid://csodnfxp6g843" path="res://assets/menu principal/creditos.png" id="5_keknf"]
 [ext_resource type="Texture2D" uid="uid://cmy63a01vkecp" path="res://assets/menu principal/salida.png" id="6_uqwts"]
@@ -11,35 +11,19 @@
 script = ExtResource("1_dfl37")
 
 [node name="fondo" type="TextureRect" parent="."]
-offset_left = -52.0
-offset_top = -21.0
-offset_right = 632.0
+offset_left = -225.0
+offset_top = -121.0
+offset_right = 909.0
 offset_bottom = 875.0
-texture = ExtResource("2_s1tos")
+texture = ExtResource("2_5dslc")
 expand_mode = 5
-
-[node name="aukantuwe" type="Label" parent="fondo"]
-layout_mode = 1
-anchors_preset = -1
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -192.0
-offset_top = -362.0
-offset_right = 187.0
-offset_bottom = -279.0
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_font_sizes/font_size = 60
-text = "AUKANTUWE"
 
 [node name="inicio" type="TextureRect" parent="."]
 offset_left = 75.0
 offset_top = 213.0
 offset_right = 161.0
 offset_bottom = 291.0
-texture = ExtResource("3_ybddr")
+texture = ExtResource("3_s0thv")
 expand_mode = 1
 
 [node name="inicio" type="Button" parent="inicio"]
@@ -51,6 +35,7 @@ offset_left = 2.0
 offset_top = 4.0
 offset_right = 428.95
 offset_bottom = 73.44
+flat = true
 
 [node name="Label" type="Label" parent="inicio"]
 layout_mode = 0
@@ -137,6 +122,21 @@ offset_right = 419.0
 offset_bottom = 123.0
 theme_override_font_sizes/font_size = 38
 text = "müñatripan"
+
+[node name="aukantuwe" type="Label" parent="."]
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 123.0
+offset_top = 43.0
+offset_right = 502.0
+offset_bottom = 126.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 60
+text = "AUKANTUWE"
 
 [connection signal="pressed" from="inicio/inicio" to="." method="_on_inicio_pressed"]
 [connection signal="pressed" from="configuracion/configuracion" to="." method="_on_configuracion_pressed"]

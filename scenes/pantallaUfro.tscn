@@ -6,7 +6,7 @@
 [node name="Loading" type="Node2D"]
 script = ExtResource("1_s1b84")
 
-[node name="TextureRect" type="TextureRect" parent="."]
+[node name="fondo" type="TextureRect" parent="."]
 offset_left = -4.0
 offset_top = -11.0
 offset_right = 602.0

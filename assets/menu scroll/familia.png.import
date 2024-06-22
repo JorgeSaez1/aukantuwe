@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://nno1qf7pqkrk"
-path="res://.godot/imported/fondofamilia2.png-78756090acbfbb5b2276f3b66a1e0606.ctex"
+uid="uid://beo4trrxbvscf"
+path="res://.godot/imported/familia.png-3d1380bcbed27b6d11c1682ba7e2f6cd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/menu scroll/fondofamilia2.png"
-dest_files=["res://.godot/imported/fondofamilia2.png-78756090acbfbb5b2276f3b66a1e0606.ctex"]
+source_file="res://assets/menu scroll/familia.png"
+dest_files=["res://.godot/imported/familia.png-3d1380bcbed27b6d11c1682ba7e2f6cd.ctex"]
 
 [params]
 

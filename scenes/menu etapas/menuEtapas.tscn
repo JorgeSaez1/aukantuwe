@@ -4,8 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://beo4trrxbvscf" path="res://assets/menu scroll/familia.png" id="2_6pg6h"]
 [ext_resource type="Texture2D" uid="uid://j1fuh63piylg" path="res://assets/menu scroll/cuerpo.png" id="2_d7ts6"]
 [ext_resource type="Texture2D" uid="uid://bfi2i2fkxp8hi" path="res://assets/menu scroll/14.png" id="4_1w8km"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_r31ug"]
+[ext_resource type="Texture2D" uid="uid://ddllchhxo3hh2" path="res://assets/menu scroll/numeros.png" id="4_eehc0"]
 
 [node name="Node" type="Node"]
 
@@ -65,11 +64,20 @@ offset_right = 341.0
 offset_bottom = 462.0
 flat = true
 
-[node name="colores" type="TextureRect" parent="ScrollContainer/HBoxContainer"]
-visible = false
+[node name="numeros" type="TextureRect" parent="ScrollContainer/HBoxContainer"]
+auto_translate_mode = 2
 layout_mode = 2
 size_flags_horizontal = 4
-texture = SubResource("CompressedTexture2D_r31ug")
+size_flags_vertical = 8
+texture = ExtResource("4_eehc0")
+
+[node name="Button" type="Button" parent="ScrollContainer/HBoxContainer/numeros"]
+layout_mode = 0
+offset_left = 42.0
+offset_top = 74.0
+offset_right = 341.0
+offset_bottom = 462.0
+flat = true
 
 [node name="fondo" type="TextureRect" parent="."]
 z_index = -4
@@ -85,3 +93,4 @@ expand_mode = 1
 
 [connection signal="pressed" from="ScrollContainer/HBoxContainer/cuerpo/Button" to="ScrollContainer" method="_on_button_pressed_cuerpo"]
 [connection signal="pressed" from="ScrollContainer/HBoxContainer/familia/Button" to="ScrollContainer" method="_on_button_pressed_familia"]
+[connection signal="pressed" from="ScrollContainer/HBoxContainer/numeros/Button" to="ScrollContainer" method="_on_button_pressed_numeros"]

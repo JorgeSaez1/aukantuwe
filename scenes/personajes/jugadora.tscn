@@ -1,5 +1,0 @@
-[gd_scene format=3 uid="uid://bbp2e3tymbeyu"]
-
-[node name="Area2D" type="Area2D"]
-
-[node name="Sprite2D" type="Sprite2D" parent="."]

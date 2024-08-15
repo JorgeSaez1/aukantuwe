@@ -117,10 +117,10 @@ theme_override_font_sizes/font_size = 38
 text = "elfal"
 
 [node name="salida" type="TextureRect" parent="."]
-offset_left = 148.0
-offset_top = 479.0
-offset_right = 234.0
-offset_bottom = 567.0
+offset_left = 147.0
+offset_top = 472.0
+offset_right = 233.0
+offset_bottom = 560.0
 texture = ExtResource("7_8fwbp")
 expand_mode = 1
 
@@ -134,10 +134,10 @@ flat = true
 
 [node name="TextureRect" type="TextureRect" parent="salida/salida"]
 layout_mode = 0
-offset_left = 143.0
-offset_top = 15.0
-offset_right = 368.0
-offset_bottom = 106.0
+offset_left = 135.0
+offset_top = 14.0
+offset_right = 360.0
+offset_bottom = 105.0
 texture = ExtResource("8_l7qhy")
 expand_mode = 1
 

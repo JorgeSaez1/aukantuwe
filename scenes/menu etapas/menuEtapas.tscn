@@ -51,10 +51,10 @@ offset_bottom = 459.206
 flat = true
 
 [node name="familia" type="TextureRect" parent="ScrollContainer/HBoxContainer"]
+auto_translate_mode = 2
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 8
-auto_translate = false
 texture = ExtResource("2_6pg6h")
 
 [node name="Button" type="Button" parent="ScrollContainer/HBoxContainer/familia"]

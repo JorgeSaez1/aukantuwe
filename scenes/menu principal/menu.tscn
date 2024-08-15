@@ -1,28 +1,30 @@
-[gd_scene load_steps=7 format=3 uid="uid://xi7bl376yeag"]
+[gd_scene load_steps=9 format=3 uid="uid://xi7bl376yeag"]
 
 [ext_resource type="Script" path="res://script/menu/menuPrincipal.gd" id="1_dfl37"]
-[ext_resource type="Texture2D" uid="uid://wiuix8xspn3k" path="res://assets/menu principal/Background-landscape.png" id="2_5dslc"]
+[ext_resource type="Texture2D" uid="uid://bwaomm2vpqgsa" path="res://assets/menu principal/17.png" id="2_pk4jo"]
 [ext_resource type="Texture2D" uid="uid://d4nkph47i2x61" path="res://assets/menu principal/btnplayblanco.png" id="3_s0thv"]
+[ext_resource type="Texture2D" uid="uid://lxedabqlm56s" path="res://assets/menu principal/btnfilkeaz.png" id="4_n3hsn"]
 [ext_resource type="Texture2D" uid="uid://de7u0qkt6bjq" path="res://assets/menu principal/configuracion.png" id="4_q0yhb"]
 [ext_resource type="Texture2D" uid="uid://csodnfxp6g843" path="res://assets/menu principal/creditos.png" id="5_keknf"]
-[ext_resource type="Texture2D" uid="uid://cmy63a01vkecp" path="res://assets/menu principal/salida.png" id="6_uqwts"]
+[ext_resource type="Texture2D" uid="uid://bg01x2k6dd0nd" path="res://assets/menu principal/fondo salida.png" id="7_8fwbp"]
+[ext_resource type="Texture2D" uid="uid://cnqil0guhu6fk" path="res://assets/menu principal/btntripan.png" id="8_l7qhy"]
 
 [node name="menu principal" type="Node2D"]
 script = ExtResource("1_dfl37")
 
 [node name="fondo" type="TextureRect" parent="."]
-offset_left = -225.0
-offset_top = -121.0
-offset_right = 909.0
-offset_bottom = 875.0
-texture = ExtResource("2_5dslc")
+offset_left = -67.0
+offset_top = -80.0
+offset_right = 670.0
+offset_bottom = 880.0
+texture = ExtResource("2_pk4jo")
 expand_mode = 5
 
 [node name="inicio" type="TextureRect" parent="."]
-offset_left = 75.0
-offset_top = 213.0
-offset_right = 161.0
-offset_bottom = 291.0
+offset_left = 146.0
+offset_top = 327.0
+offset_right = 232.0
+offset_bottom = 405.0
 texture = ExtResource("3_s0thv")
 expand_mode = 1
 
@@ -31,24 +33,35 @@ layout_mode = 1
 anchors_preset = -1
 anchor_right = 0.075
 anchor_bottom = 0.136
-offset_left = 2.0
-offset_top = 4.0
-offset_right = 428.95
-offset_bottom = 73.44
+offset_left = -24.0
+offset_top = -14.0
+offset_right = 365.55
+offset_bottom = 80.392
 flat = true
 
-[node name="Label" type="Label" parent="inicio"]
+[node name="TextureRect" type="TextureRect" parent="inicio/inicio"]
 layout_mode = 0
-offset_left = 139.0
-offset_top = 10.0
-offset_right = 307.0
-offset_bottom = 63.0
+offset_left = 162.0
+offset_top = 6.0
+offset_right = 387.0
+offset_bottom = 98.0
+texture = ExtResource("4_n3hsn")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="inicio"]
+visible = false
+layout_mode = 0
+offset_left = 163.0
+offset_top = 54.0
+offset_right = 331.0
+offset_bottom = 107.0
 theme_override_font_sizes/font_size = 38
 text = "tuwültun"
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="configuracion" type="TextureRect" parent="."]
+visible = false
 offset_left = 16.0
 offset_top = 250.0
 offset_right = 209.0
@@ -57,6 +70,7 @@ texture = ExtResource("4_q0yhb")
 expand_mode = 1
 
 [node name="configuracion" type="Button" parent="configuracion"]
+visible = false
 layout_mode = 0
 offset_left = 52.0
 offset_top = 67.0
@@ -65,6 +79,7 @@ offset_bottom = 134.0
 flat = true
 
 [node name="Label" type="Label" parent="configuracion"]
+visible = false
 layout_mode = 0
 offset_left = 199.0
 offset_top = 70.0
@@ -74,6 +89,7 @@ theme_override_font_sizes/font_size = 38
 text = "küme eltun"
 
 [node name="creditos" type="TextureRect" parent="."]
+visible = false
 offset_left = 11.0
 offset_top = 358.0
 offset_right = 213.0
@@ -82,6 +98,7 @@ texture = ExtResource("5_keknf")
 expand_mode = 1
 
 [node name="creditos" type="Button" parent="creditos"]
+visible = false
 layout_mode = 0
 offset_left = 56.0
 offset_top = 64.0
@@ -90,6 +107,7 @@ offset_bottom = 128.0
 flat = true
 
 [node name="Label" type="Label" parent="creditos"]
+visible = false
 layout_mode = 0
 offset_left = 203.0
 offset_top = 67.0
@@ -99,32 +117,32 @@ theme_override_font_sizes/font_size = 38
 text = "elfal"
 
 [node name="salida" type="TextureRect" parent="."]
-offset_left = 13.0
-offset_top = 455.0
-offset_right = 219.0
-offset_bottom = 648.0
-texture = ExtResource("6_uqwts")
+offset_left = 148.0
+offset_top = 479.0
+offset_right = 234.0
+offset_bottom = 567.0
+texture = ExtResource("7_8fwbp")
 expand_mode = 1
 
 [node name="salida" type="Button" parent="salida"]
 layout_mode = 0
-offset_left = 57.0
-offset_top = 64.0
-offset_right = 455.0
-offset_bottom = 128.0
+offset_left = -8.0
+offset_top = -19.0
+offset_right = 398.0
+offset_bottom = 107.0
 flat = true
 
-[node name="Label" type="Label" parent="salida"]
+[node name="TextureRect" type="TextureRect" parent="salida/salida"]
 layout_mode = 0
-offset_left = 201.0
-offset_top = 70.0
-offset_right = 419.0
-offset_bottom = 123.0
-theme_override_font_sizes/font_size = 38
-text = "müñatripan"
+offset_left = 143.0
+offset_top = 15.0
+offset_right = 368.0
+offset_bottom = 106.0
+texture = ExtResource("8_l7qhy")
+expand_mode = 1
 
 [node name="aukantuwe" type="Label" parent="."]
-anchors_preset = -1
+anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
@@ -136,7 +154,7 @@ offset_bottom = 126.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 60
-text = "AUKANTÜWE"
+text = "AWKANTÜWE"
 
 [connection signal="pressed" from="inicio/inicio" to="." method="_on_inicio_pressed"]
 [connection signal="pressed" from="configuracion/configuracion" to="." method="_on_configuracion_pressed"]

@@ -41,10 +41,10 @@ flat = true
 
 [node name="TextureRect" type="TextureRect" parent="inicio/inicio"]
 layout_mode = 0
-offset_left = 162.0
-offset_top = 6.0
-offset_right = 387.0
-offset_bottom = 98.0
+offset_left = 154.0
+offset_top = 11.0
+offset_right = 379.0
+offset_bottom = 103.0
 texture = ExtResource("4_n3hsn")
 expand_mode = 1
 

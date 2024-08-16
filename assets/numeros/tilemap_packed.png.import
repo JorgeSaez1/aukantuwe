@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://tfdmsmfg0j6o"
-path="res://.godot/imported/fondo aukantuwe.png-ef1accf9da6566ce0d73b0676e194c2a.ctex"
+uid="uid://dpvw8na352udm"
+path="res://.godot/imported/tilemap_packed.png-29299996c398aa2318345f2797f4db7a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/fondo aukantuwe.png"
-dest_files=["res://.godot/imported/fondo aukantuwe.png-ef1accf9da6566ce0d73b0676e194c2a.ctex"]
+source_file="res://assets/numeros/tilemap_packed.png"
+dest_files=["res://.godot/imported/tilemap_packed.png-29299996c398aa2318345f2797f4db7a.ctex"]
 
 [params]
 

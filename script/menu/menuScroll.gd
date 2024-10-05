@@ -16,4 +16,4 @@ func _on_button_pressed_cuerpo():
 	
 	
 func _on_button_pressed_numeros():
-	get_tree().change_scene_to_file("res://scenes/menu principal/menu.tscn")
+	get_tree().change_scene_to_file("res://scenes/juego numeros/etapa1.tscn")

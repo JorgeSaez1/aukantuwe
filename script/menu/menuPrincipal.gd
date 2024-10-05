@@ -1,5 +1,4 @@
 extends Node2D
-var Touch = false
 @export var next_scene: String = "res://scenes/menu etapas/menuEtapas.tscn"
 
 # Called when the node enters the scene tree for the first time.

@@ -1,12 +1,15 @@
-[gd_scene load_steps=6 format=3 uid="uid://ql0fwak851kv"]
+[gd_scene load_steps=8 format=3 uid="uid://ql0fwak851kv"]
 
 [ext_resource type="Script" path="res://script/menu/menuScroll.gd" id="1_elggd"]
+[ext_resource type="Script" path="res://script/menu/menuSalida.gd" id="1_lk5wf"]
 [ext_resource type="Texture2D" uid="uid://beo4trrxbvscf" path="res://assets/menu scroll/familia.png" id="2_6pg6h"]
 [ext_resource type="Texture2D" uid="uid://j1fuh63piylg" path="res://assets/menu scroll/cuerpo.png" id="2_d7ts6"]
 [ext_resource type="Texture2D" uid="uid://bfi2i2fkxp8hi" path="res://assets/menu scroll/14.png" id="4_1w8km"]
 [ext_resource type="Texture2D" uid="uid://ddllchhxo3hh2" path="res://assets/menu scroll/numeros.png" id="4_eehc0"]
+[ext_resource type="Texture2D" uid="uid://c7ap80n5d4730" path="res://assets/salir.png" id="6_nsiey"]
 
 [node name="Node" type="Node"]
+script = ExtResource("1_lk5wf")
 
 [node name="ScrollContainer" type="ScrollContainer" parent="."]
 clip_contents = false
@@ -83,14 +86,29 @@ flat = true
 z_index = -4
 clip_contents = true
 layout_direction = 1
-offset_left = -100.0
-offset_top = -56.0
-offset_right = 712.0
-offset_bottom = 880.0
+offset_left = -20.0
+offset_top = -12.0
+offset_right = 674.0
+offset_bottom = 924.0
 mouse_filter = 2
 texture = ExtResource("4_1w8km")
+expand_mode = 1
+
+[node name="TextureButton" type="TextureButton" parent="."]
+offset_left = 537.0
+offset_top = 9.0
+offset_right = 594.0
+offset_bottom = 63.0
+
+[node name="TextureRect" type="TextureRect" parent="TextureButton"]
+layout_mode = 0
+offset_top = 1.0
+offset_right = 48.0
+offset_bottom = 53.0
+texture = ExtResource("6_nsiey")
 expand_mode = 1
 
 [connection signal="pressed" from="ScrollContainer/HBoxContainer/cuerpo/Button" to="ScrollContainer" method="_on_button_pressed_cuerpo"]
 [connection signal="pressed" from="ScrollContainer/HBoxContainer/familia/Button" to="ScrollContainer" method="_on_button_pressed_familia"]
 [connection signal="pressed" from="ScrollContainer/HBoxContainer/numeros/Button" to="ScrollContainer" method="_on_button_pressed_numeros"]
+[connection signal="pressed" from="TextureButton" to="." method="_on_texture_button_pressed_salida"]

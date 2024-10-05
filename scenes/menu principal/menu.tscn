@@ -1,7 +1,7 @@
 [gd_scene load_steps=9 format=3 uid="uid://xi7bl376yeag"]
 
 [ext_resource type="Script" path="res://script/menu/menuPrincipal.gd" id="1_dfl37"]
-[ext_resource type="Texture2D" uid="uid://bwaomm2vpqgsa" path="res://assets/menu principal/17.png" id="2_pk4jo"]
+[ext_resource type="Texture2D" uid="uid://jpunq1xo88ma" path="res://assets/otrolans.png" id="2_kdln0"]
 [ext_resource type="Texture2D" uid="uid://d4nkph47i2x61" path="res://assets/menu principal/btnplayblanco.png" id="3_s0thv"]
 [ext_resource type="Texture2D" uid="uid://lxedabqlm56s" path="res://assets/menu principal/btnfilkeaz.png" id="4_n3hsn"]
 [ext_resource type="Texture2D" uid="uid://de7u0qkt6bjq" path="res://assets/menu principal/configuracion.png" id="4_q0yhb"]
@@ -17,7 +17,7 @@ offset_left = -67.0
 offset_top = -80.0
 offset_right = 670.0
 offset_bottom = 880.0
-texture = ExtResource("2_pk4jo")
+texture = ExtResource("2_kdln0")
 expand_mode = 5
 
 [node name="inicio" type="TextureRect" parent="."]

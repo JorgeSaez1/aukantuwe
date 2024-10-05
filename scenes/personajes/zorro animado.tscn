@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://bwf1ns60uexm4"]
+
+[sub_resource type="Animation" id="Animation_avfop"]
+resource_name = "new_animation"
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_srbcp"]
+_data = {
+"new_animation": SubResource("Animation_avfop")
+}
+
+[node name="Node2D" type="Sprite2D"]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_srbcp")
+}
